@@ -1,0 +1,52 @@
+{
+    "test_images/gt\\ground_truth.png": {
+        "test_images/pred\\DC.png": {
+            "gt_attributes": "{'non-empty': True, 'b-close': True, 'b-open': True, 'regular': False, 'null-interior': False, 'border': False, 'atomic': False}",
+            "pred_attributes": "{'non-empty': True, 'b-close': True, 'b-open': True, 'regular': False, 'null-interior': False, 'border': False, 'atomic': False}",
+            "relation_name": "DC",
+            "relation_number": "5"
+        },
+        "test_images/pred\\EC.png": {
+            "gt_attributes": "{'non-empty': True, 'b-close': True, 'b-open': True, 'regular': False, 'null-interior': False, 'border': False, 'atomic': False}",
+            "pred_attributes": "{'non-empty': True, 'b-close': True, 'b-open': True, 'regular': False, 'null-interior': False, 'border': True, 'atomic': False}",
+            "relation_name": "EC",
+            "relation_number": "6"
+        },
+        "test_images/pred\\EQ.png": {
+            "gt_attributes": "{'non-empty': True, 'b-close': True, 'b-open': True, 'regular': False, 'null-interior': False, 'border': False, 'atomic': False}",
+            "pred_attributes": "{'non-empty': True, 'b-close': True, 'b-open': True, 'regular': False, 'null-interior': False, 'border': False, 'atomic': False}",
+            "relation_name": "EQ",
+            "relation_number": "2"
+        },
+        "test_images/pred\\NTPP.png": {
+            "gt_attributes": "{'non-empty': True, 'b-close': True, 'b-open': True, 'regular': False, 'null-interior': False, 'border': False, 'atomic': False}",
+            "pred_attributes": "{'non-empty': True, 'b-close': True, 'b-open': True, 'regular': False, 'null-interior': False, 'border': False, 'atomic': False}",
+            "relation_name": "NTPP",
+            "relation_number": "8"
+        },
+        "test_images/pred\\NTPPi.png": {
+            "gt_attributes": "{'non-empty': True, 'b-close': True, 'b-open': True, 'regular': False, 'null-interior': False, 'border': False, 'atomic': False}",
+            "pred_attributes": "{'non-empty': True, 'b-close': True, 'b-open': True, 'regular': False, 'null-interior': False, 'border': False, 'atomic': False}",
+            "relation_name": "NTPPi",
+            "relation_number": "10"
+        },
+        "test_images/pred\\PO.png": {
+            "gt_attributes": "{'non-empty': True, 'b-close': True, 'b-open': True, 'regular': False, 'null-interior': False, 'border': False, 'atomic': False}",
+            "pred_attributes": "{'non-empty': True, 'b-close': True, 'b-open': True, 'regular': False, 'null-interior': False, 'border': True, 'atomic': False}",
+            "relation_name": "PO",
+            "relation_number": "1"
+        },
+        "test_images/pred\\TPP.png": {
+            "gt_attributes": "{'non-empty': True, 'b-close': True, 'b-open': True, 'regular': False, 'null-interior': False, 'border': False, 'atomic': False}",
+            "pred_attributes": "{'non-empty': True, 'b-close': False, 'b-open': True, 'regular': False, 'null-interior': False, 'border': True, 'atomic': False}",
+            "relation_name": "TPP",
+            "relation_number": "7"
+        },
+        "test_images/pred\\TPPi.png": {
+            "gt_attributes": "{'non-empty': True, 'b-close': True, 'b-open': True, 'regular': False, 'null-interior': False, 'border': False, 'atomic': False}",
+            "pred_attributes": "{'non-empty': True, 'b-close': True, 'b-open': True, 'regular': False, 'null-interior': False, 'border': False, 'atomic': False}",
+            "relation_name": "TPPi",
+            "relation_number": "9"
+        }
+    }
+}
