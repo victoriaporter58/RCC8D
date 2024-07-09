@@ -4,13 +4,13 @@ import cv2
 import json
 
 
-def main():    
+def main():
     # argument set-up
     path_to_gt_images = "test_images/gt"
     path_to_pred_images = "test_images/pred"
     eval_out_path = os.path.join("evaluation", "RCC8D_output.json")
     eval_out_json = {}
-    
+
     # initialise RCC8D class
     rcc8d = RCC8D()
 
@@ -25,9 +25,9 @@ def main():
             if ".png" in pred:
                 pred_img_path = os.path.join(path_to_pred_images, pred)
                 pred_img = cv2.imread(pred_img_path, cv2.IMREAD_GRAYSCALE)
-                
+
                 result = rcc8d.compare_images(gt_img, pred_img, mode="RCC8D", attributes=True, details=True)
-                
+
                 eval_out_json[gt_img_path][pred_img_path] = {
                     "gt_attributes": str(result["attributes_x"]),
                     "pred_attributes": str(result["attributes_y"]),
