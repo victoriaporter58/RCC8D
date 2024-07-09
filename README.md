@@ -1,7 +1,7 @@
 # RCC8D
 A Python-based implementation [2] of the RCC8D ImageJ/Fiji plugin created by Gabriel Landini and David A Randell [1]. Read more about the ImageJ/Fiji plugin [here](https://blog.bham.ac.uk/intellimic/spatial-reasoning-with-imagej-using-the-region-connection-calculus/).
 
-The purpose of this work is to provide a Python-based version of the ImageJ/Fiji plugin [1] that can be easily integrated with existing Python-based pipelines. It removes the need to install the ImageJ/Fiji software and does not require the user to understand how to use ImageJ/Fiji in order to run the RCC8D analysis.
+The purpose of this work is to provide a Python-based version of the ImageJ/Fiji plugin [1] that can be easily integrated with existing Python-based pipelines. It removes the need to install the ImageJ/Fiji software and does not require the user to understand how to use ImageJ/Fiji in order to run the RCC8D analysis. The RCC8D Python module is available [here](https://pypi.org/project/RCC8D/).
 
 ## Example Usage
 
