@@ -35,7 +35,7 @@ test_images:
 
 ## Example Usage
 
-This example computes the RCC8D relation of each ground truth mask with respect to all predicted masks made for the ground truth image. This is applicable for models such as the Segment Anything model which does not classify the masks that it generates.
+This example computes the RCC8D relation of each ground truth mask with respect to all predicted masks made for the ground truth image. This is applicable for models such as the Segment Anything model which does not classify the masks that it generates. This script can be modified to suit the requirements of other image segmentation models.
 
 ```python
 from RCC8D.rcc8d import RCC8D
